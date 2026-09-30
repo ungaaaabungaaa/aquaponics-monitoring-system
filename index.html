@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aquaponics Monitor</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐟</text></svg>" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Aquaponics Monitor</h1>
+      <p class="sub">Live environmental conditions for fish tank and grow bed</p>
+    </div>
+    <div class="status" id="status"><span class="dot"></span><span id="status-text">All systems normal</span></div>
+  </header>
+
+  <main>
+    <section class="grid" id="metrics"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Last 60 readings</h2>
+        <select id="chart-select" aria-label="Metric to chart"></select>
+      </div>
+      <canvas id="chart" height="180"></canvas>
+    </section>
+
+    <section class="panel">
+      <h2>Alerts</h2>
+      <ul id="alerts"><li class="muted">No alerts yet.</li></ul>
+    </section>
+  </main>
+
+  <footer>Simulated sensor feed · updates every 2s · <a href="https://github.com/ungaaaabungaaa/hiteshraj">Source</a></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

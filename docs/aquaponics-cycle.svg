@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" font-family="system-ui, sans-serif">
+  <rect width="800" height="340" rx="16" fill="#0b1418"/>
+  <!-- grow bed -->
+  <rect x="470" y="120" width="260" height="90" rx="10" fill="#1e2f37" stroke="#3fb8d8" stroke-width="2"/>
+  <rect x="482" y="150" width="236" height="52" rx="6" fill="#4a3a2a"/>
+  <g transform="translate(520 150)"><rect x="-1.5" y="-48" width="3" height="48" fill="#2ecc8f"/><ellipse cx="-11" cy="-38" rx="12" ry="6" fill="#2ecc8f" transform="rotate(-30 -11 -38)"/><ellipse cx="11" cy="-28" rx="12" ry="6" fill="#2ecc8f" transform="rotate(30 11 -28)"/><ellipse cx="-10" cy="-16" rx="10" ry="5" fill="#2ecc8f" transform="rotate(-30 -10 -16)"/></g><g transform="translate(580 150)"><rect x="-1.5" y="-48" width="3" height="48" fill="#2ecc8f"/><ellipse cx="-11" cy="-38" rx="12" ry="6" fill="#2ecc8f" transform="rotate(-30 -11 -38)"/><ellipse cx="11" cy="-28" rx="12" ry="6" fill="#2ecc8f" transform="rotate(30 11 -28)"/><ellipse cx="-10" cy="-16" rx="10" ry="5" fill="#2ecc8f" transform="rotate(-30 -10 -16)"/></g><g transform="translate(640 150)"><rect x="-1.5" y="-48" width="3" height="48" fill="#2ecc8f"/><ellipse cx="-11" cy="-38" rx="12" ry="6" fill="#2ecc8f" transform="rotate(-30 -11 -38)"/><ellipse cx="11" cy="-28" rx="12" ry="6" fill="#2ecc8f" transform="rotate(30 11 -28)"/><ellipse cx="-10" cy="-16" rx="10" ry="5" fill="#2ecc8f" transform="rotate(-30 -10 -16)"/></g><g transform="translate(700 150)"><rect x="-1.5" y="-48" width="3" height="48" fill="#2ecc8f"/><ellipse cx="-11" cy="-38" rx="12" ry="6" fill="#2ecc8f" transform="rotate(-30 -11 -38)"/><ellipse cx="11" cy="-28" rx="12" ry="6" fill="#2ecc8f" transform="rotate(30 11 -28)"/><ellipse cx="-10" cy="-16" rx="10" ry="5" fill="#2ecc8f" transform="rotate(-30 -10 -16)"/></g>
+  <text x="600" y="240" fill="#e6f0f2" font-size="16" text-anchor="middle">Grow bed</text>
+  <text x="600" y="260" fill="#7f9aa3" font-size="12" text-anchor="middle">plants take up nitrates, water is filtered</text>
+  <!-- fish tank -->
+  <rect x="70" y="120" width="260" height="140" rx="10" fill="#1e2f37" stroke="#3fb8d8" stroke-width="2"/>
+  <rect x="82" y="150" width="236" height="98" rx="6" fill="#123a4a"/>
+  <g fill="#f5b942">
+    <path d="M140 200 q25-18 50 0 q-25 18-50 0z M190 200 l14-10 v20z"/>
+    <path d="M230 175 q20-14 40 0 q-20 14-40 0z M270 175 l11-8 v16z"/>
+    <path d="M120 230 q20-14 40 0 q-20 14-40 0z M160 230 l11-8 v16z"/>
+  </g>
+  <text x="200" y="290" fill="#e6f0f2" font-size="16" text-anchor="middle">Fish tank</text>
+  <text x="200" y="310" fill="#7f9aa3" font-size="12" text-anchor="middle">fish waste → ammonia → bacteria → nitrates</text>
+  <!-- flow arrows -->
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8z" fill="#3fb8d8"/></marker></defs>
+  <path d="M330 150 C 400 150, 400 140, 470 140" fill="none" stroke="#3fb8d8" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M470 200 C 400 200, 400 240, 330 240" fill="none" stroke="#3fb8d8" stroke-width="3" marker-end="url(#a)"/>
+  <text x="400" y="132" fill="#7f9aa3" font-size="12" text-anchor="middle">pump</text>
+  <text x="400" y="262" fill="#7f9aa3" font-size="12" text-anchor="middle">clean water returns</text>
+  <!-- sensors -->
+  <g font-size="12" fill="#e6f0f2">
+    <circle cx="90" cy="135" r="5" fill="#2ecc8f"/><text x="100" y="139">temp · pH · O₂ · NH₃</text>
+    <circle cx="500" cy="100" r="5" fill="#2ecc8f"/><text x="510" y="104">air · humidity · light</text>
+  </g>
+  <text x="400" y="40" fill="#e6f0f2" font-size="22" text-anchor="middle" font-weight="600">Aquaponics Monitoring System</text>
+  <text x="400" y="62" fill="#7f9aa3" font-size="13" text-anchor="middle">sensors → ESP32 → dashboard → alerts</text>
+</svg>
