@@ -14,6 +14,8 @@ A comprehensive monitoring system for aquaponics that tracks environmental condi
 
 ## Dashboard
 
+**Live demo:** https://ungaaaabungaaa.github.io/aquaponics-monitoring-system/
+
 <img src="docs/dashboard.png" alt="Aquaponics Monitor dashboard" width="100%">
 
 ## What it does
