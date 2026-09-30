@@ -42,8 +42,8 @@ sensors ──▶ ESP32 (firmware/) ──▶ JSON over Wi‑Fi ──▶ dashbo
 ## Run it
 
 ```bash
-git clone https://github.com/ungaaaabungaaa/hiteshraj
-cd hiteshraj
+git clone https://github.com/ungaaaabungaaa/aquaponics-monitoring-system
+cd aquaponics-monitoring-system
 open index.html        # or: python3 -m http.server
 ```
 
